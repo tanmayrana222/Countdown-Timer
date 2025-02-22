@@ -17,6 +17,31 @@ body {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
+.input-container{
+    display:flex ;
+    justify-content: center;
+    gap: 10px;
+    
+    margin-bottom: 1rem;
+
+
+}
+
+input{
+    width: 50px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+}
+
+input :: placeholder{
+    color: rgba(255, 255, 255, 0.7);
+    
+}
 .timer {
     font-size: 3rem;
     margin-bottom: 1rem;
